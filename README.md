@@ -7,4 +7,7 @@
 
 #### roberta-base vs roberta-large on L40S 48GB NVIDIA GPU (mteb/banking77)
 
-todo
+| Model         | Batch Size (Max) | Allocated GPU Memory | Reserved GPU Memory | Inference Speed (Batch Size 1) | Inference Speed (Max Batch Size) |
+| ------------- | ---------------- | -------------------- | ------------------- | ------------------------------ | -------------------------------- |
+| Roberta-large | 93              | 21.07 GB             | 43.88 GB            | 331.7263 ms                     | 10.4585 ms                        |
+| Roberta-base  | 241              | 19.73 GB             | 42.11 GB            | 173.5017 ms                     | 5.6834 ms                        |
